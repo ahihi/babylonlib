@@ -15,9 +15,6 @@ import Control.Applicative
     ( (<$>)
     , (<*>)
     )
-import Control.Monad
-    ( guard
-    )
 import Data.Array.Unboxed
     ( UArray ()
     , (!)
@@ -29,14 +26,11 @@ import Data.Char
 import Data.List
     ( foldl'
     )
-import Data.Map
-    ( Map
-    )
 import Data.Maybe
     ( fromJust
     )
 import Data.Time.Calendar
-    ( Day
+    ( Day ()
     , fromGregorianValid
     , toGregorian
     )
